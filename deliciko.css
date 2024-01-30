@@ -1,0 +1,364 @@
+body{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+header{
+  position: absolute;
+  z-index: 1000;
+  position: fixed;
+}
+
+.my-logo{
+    width: 150px !important;
+    background-color: white !important;
+    margin-left: -14px !important;
+    margin-top:-12px !important ;
+}
+
+
+.my-ul{
+  margin-left: 100px !important;
+  padding-top: 40px !important;
+
+}
+
+.my-ul li a{
+color: white !important;
+font-family: 'poppins';
+font-size: 16px !important;
+font-weight: 600 !important;
+padding: 0px 20px !important;
+}
+.home-color{
+  color: #BC906B !important;
+}
+
+.cart-icon{
+  color: white !important;
+  padding-left: 0px !important;
+}
+.hr-nav{
+  width: 30px !important;
+  background-color: white !important;
+  height: 1px !important;
+  transform: rotate(90deg) !important;
+}
+.nav-btn{
+  color: white !important;
+  font-family: 'poppins';
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  padding-top: 30px !important;
+}
+
+.phone-icon{
+  font-size: 22px !important;
+  margin-left: -90px !important;
+}
+
+
+
+.nav-btn2{
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  padding: 10px 30px;
+  background-color: #BC906B;
+  color: white;
+  border: none !important;
+  box-shadow: 7px 9px 0px rgb(188,144,107, 0.4) ;
+  text-align: center !important;
+  margin-bottom: -30px !important;
+  margin-left: 35px !important;
+  transition: 0.4s;
+
+}
+
+.nav-btn2:hover{
+  background-color: #BC906B;
+  box-shadow: 0px 0px 0px ;
+
+}
+
+
+
+.swiper-slide{
+    padding-bottom: 200px ;
+}
+
+.my-navbar{
+  /* position: fixed !important; */
+  /* background-color: #000 !important; */
+  /* height: 115px !important; */
+    /* border-bottom:  1px solid black !important; */
+   
+}
+
+.mySwiper{
+    position: absolute;
+    z-index: 0.1;
+    padding-bottom: 200px ; 
+   
+}
+
+
+
+
+.background-img1{
+  background-image: url(Images/slider_image03.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+
+} 
+
+
+ .home-head{
+    font-size: 110px;
+text-align: center;
+transform: translate(0%, 80%);
+color: #BC906B;
+font-family: 'ZCOOL XiaoWei';
+line-height: 110px;
+margin-bottom: 210px;
+
+}
+
+.card-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-top i{
+    font-size:58px;
+    color: #BC906B;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card{
+    border: none !important;
+    background-color: #fff;
+}
+.card-top h2{
+    font-size: 28px;
+    font-family: 'poppins';
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'ZCOOL XiaoWei';
+}
+
+.card-top span{
+    color: #BC906B;
+}
+
+.home-head span{
+    font-size: 50px;
+}
+
+.divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%,0%);
+    color: white;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: white;
+    margin: 5px;
+  }
+
+  .home-btn{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    padding: 10px 50px;
+    background-color: #BC906B;
+    color: white;
+    border: none !important;
+    box-shadow: 7px 9px 0px rgb(188,144,107, 0.4) ;
+    text-align: center !important;
+    margin-bottom: 100px !important;
+    transition: 0.4s;
+
+  }
+
+  
+.home-btn:hover{
+  background-color: #BC906B;
+  box-shadow: 0px 0px 0px ;
+
+}
+
+
+  .row-above .card{
+    background-image: url(Images/team_object02.png);
+    background-position: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 30%;
+  }
+
+  .para-align{
+    text-align: center !important;
+    margin-top: 30px;
+  }
+
+  .card-top p{
+    font-size: 16px;
+    color: #a0a0a0;
+    font-weight: 400;
+
+    text-align: center !important;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .row-above{
+   top: -70px;
+    position: relative;
+    z-index: 12;
+  }
+
+  .dics-heading{
+    font-family: 'Cookie', cursive;
+    font-size: 58px;
+  }
+
+  .dics-heading span{
+    color: #BC906B;
+  }
+
+  .disc-para{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: #a0a0a0;
+    text-align: justify;
+    
+  }
+
+  .col-align{
+    display: flex !important    ;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  
+  }
+
+  .col-align img{
+    margin-bottom: 40px;
+  }
+
+  .flower{
+    background-image: url(Images/story_object01.png);
+    background-position: left;
+    background-position-y:bottom ;
+    background-repeat: no-repeat;
+
+  }
+
+  .sticky-heading{
+    font-size: 52px;
+    font-family: 'Cookie';
+    color: #BC906B;
+    padding-left: 100px;
+    margin-top: 100px;
+ 
+  }
+  .sticky-heading span{
+    color: white;
+    font-size: 22px;
+    font-family: 'poppins';
+  }
+
+  .bg-sticky{
+    background-image: url(Images/cta_image-min.jpg);
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px !important;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+ 
+    vertical-align: middle !important;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 1;
+
+
+}
+
+.bg-butt{
+    background-image: url(Images/menu-banner-min-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: -50px;
+    
+}
+
+.button-middle{
+    transform: translate(0%, 80%);
+    
+}
+
+.button-middle button{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-menu .card-title{
+
+    color: #BC906B;
+    font-family: 'poppins';
+}
+
+.card-menu .card-text{
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #a0a0a0;
+}
+
+.card-menu .card-text i{
+  position: absolute;
+  right: 0 !important;
+  color: #BC906B;
+  font-size: 22px;
+
+}
+
+
+
+.nav-tabs button{
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    font-family: 'poppins';
+
+}
+
+.nav-tabs button:focus{
+    border-bottom: 3px solid #BC906B;
+}
+
+.nav-link .active{
+    border: ;
+
+} 
